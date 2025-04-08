@@ -22,3 +22,13 @@ document.writeln("<br>El año actual es: ", actualYear)
 const url = "http://127.0.0.1:5500/index.html"
 
 document.writeln("<br>La direccion de live server es: " + url)
+
+//ejemplo de suma de numeros
+
+let numero1, numero2, resultado;
+numero1 = 10
+numero2 = 25
+
+resultado = numero1 + numero2
+
+document.writeln("<br> El resultado de la suma es: ", resultado)
