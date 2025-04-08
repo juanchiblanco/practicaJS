@@ -19,3 +19,6 @@ actualYear = 2025
 
 document.writeln("<br>El año actual es: ", actualYear)
 
+const url = "http://127.0.0.1:5500/index.html"
+
+document.writeln("<br>La direccion de live server es: " + url)
