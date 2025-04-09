@@ -26,9 +26,11 @@ document.writeln("<br>La direccion de live server es: " + url)
 //ejemplo de suma de numeros
 
 let numero1, numero2, resultado;
-numero1 = 10
-numero2 = 25
+numero1 = parseInt(prompt("ingrese un numero"))
+numero2 = parseInt(prompt("ingrese un numero"))
 
-resultado = numero1 + numero2
+console.log(numero1)
+console.log(numero2)
 
-document.writeln("<br> El resultado de la suma es: ", resultado)
+document.writeln("<br> El resultado de la suma es: ", resultado = numero1 + numero2)
+
