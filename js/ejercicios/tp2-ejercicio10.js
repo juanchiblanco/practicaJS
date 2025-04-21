@@ -6,10 +6,13 @@ const columnas = parseInt(prompt(`Ingresa un numero de columnas`))
 document.writeln(`<table>
            <tbody>`)
 for(let indiceFilas = 1; indiceFilas<=filas; indiceFilas++){
-    document.writeln(`
-                <tr>
-                    <td>i</td>
-                </tr>`)}
+    document.writeln(`<tr>`)
+    for(let indiceColumnas = 0; indiceColumnas<columnas; indiceColumnas++){
+        
+    document.writeln(`<td>i</td>`)
+    }
+    document.writeln(`</tr>`)
+            }
 document.writeln(`
            </tbody>
         </table>`)
