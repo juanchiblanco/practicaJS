@@ -27,3 +27,17 @@ let linea = 1
 do{document.writeln(`<p> Linea numero: ${linea}`)
 linea++;
 } while(linea <= 50)
+
+    /* 
+
+    for(let contador = 0 ; condicion logica ; contador ++ o -- o contador =...){
+    todas la lineas de codigo que quiero repetir
+    }
+
+    */
+
+    //cuenta regresiva
+
+    for(let contador=10; contador>0;contador--){
+        document.writeln(`<p>Cuenta regresiva: ${contador}</p>`)
+    }
