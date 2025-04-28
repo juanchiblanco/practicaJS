@@ -4,8 +4,13 @@
 
 // Funciones sin parametros
 
-function saludar(){
-    //Todas las lineas necesarias para saludar
+// function saludar(){
+//     //Todas las lineas necesarias para saludar
+//     document.writeln(`<p>Hola Mundo</p>`)
+// }
+
+//Expresion de funcion
+const saludar = function(){
     document.writeln(`<p>Hola Mundo</p>`)
 }
 
@@ -18,10 +23,15 @@ function sumar(numero1,numero2){
 
 //Funciones que retornan un valor
 
-function multiplicar(numero1,numero2){
-    const resultado = numero1*numero2
-    return resultado
-}
+// function multiplicar(numero1,numero2){
+//     const resultado = numero1*numero2
+//     return resultado
+// }
+
+const multiplicar = (numero1,numero2)=>{
+        const resultado = numero1*numero2
+        return resultado
+    }
 
 //Invocar una funcion
 saludar();
