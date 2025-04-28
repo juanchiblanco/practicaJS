@@ -129,3 +129,10 @@ listarComidas(`Modificar un elemento del array`)
 // for(let i=0; i<comidas.length; i++){
 //     document.writeln(`<li>${comidas[i]}</li>`)}
 // document.writeln(`</ul>`)
+
+//como sabemos si existe un dato en el array
+
+const hamburguesa = comidas.find((comida)=>comida==='🍔')
+const hamburguesaPosition = comidas.findIndex((comida)=>comida==='🍔')
+console.log(hamburguesa)
+console.log(`Indice de la hamburguesa es ${hamburguesaPosition}`)
